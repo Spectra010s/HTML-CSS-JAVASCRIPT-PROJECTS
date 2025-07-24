@@ -1,0 +1,42 @@
+body {
+  background-color: #f9f6f1;
+}
+.sidebar {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 1.5rem;
+}
+.sidebar .nav-link {
+  color: #ccc;
+  font-weight: 500;
+}
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0.5rem;
+}
+.content {
+  padding: 2rem;
+}
+.card-box {
+  border-radius: 1rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.card-box-dark {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.budget-chart {
+  height: 200px;
+  background-color: #eef;
+  border-radius: 50%;
+}
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
