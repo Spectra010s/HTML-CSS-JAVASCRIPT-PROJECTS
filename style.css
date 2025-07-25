@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "font-body";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "font-title";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    font-family: "font-body", sans-serif;
+
+}
+.container{
+    margin: 3rem;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 20px;
+}
+.heroImg{
+    width: 100%;
+    height: 40vh;
+    background: url("./assets/images/image-omelette.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* margin: 2rem; */
+    
+    
+    
+
+}
+.rowOne{
+    display: block;
+}
+h1{
+    font-family: "font-title", sans-serif;
+    font-size: 2rem;
+    word-spacing: 5px;
+    padding: 1rem 0 0.5rem 0;
+    font-weight: 200;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.rowTwo{
+    background-color: rgb(242, 237, 236);
+    padding: 2rem;
+    border-radius: 10px;
+}
+h3{
+    font-family: "font-title", sans-serif;
+    color:brown;
+    padding-bottom: 15px;
+}
+
+ul{
+    color: brown;
+    margin-left: 1rem;
+}
+
+
+ul > li {
+    padding-bottom: 15px;
+
+    
+    
+}
+.bulletPoint{
+    font-weight: 600;
+    color: black;
+    /* padding-right: 5px; */
+    padding-left: 10px;
+}
+.mainPoint{
+    color: black;
+    padding-left: 8px;
+    
+    
+}
+.rowThree{
+    border-bottom: 1px solid black;
+
+}
+.rowFour{
+    margin-bottom: 1rem;
+
+}
+h2{
+    font-family: "font-title", sans-serif;
+    margin: 1.5rem 0 1.5rem 0;
+    color: brown;
+}
+
+ol{
+    color: brown;
+}
+
+ol>li {
+    padding-bottom: 15px;
+
+
+
+}
+.rowFive{
+    border-top: 1px solid black;
+
+}
+.nutrient_container{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 50%;
+    margin-left: 1rem;
+}
+.nutridata{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .5px solid black;
+    padding: 1rem 0 1rem 0;
+}
+
+.nutridata p:nth-child(2){
+    color: brown;
+}
+
+#data4{
+    border-bottom: none;
+
+}
