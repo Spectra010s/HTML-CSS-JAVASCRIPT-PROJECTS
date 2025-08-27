@@ -125,7 +125,12 @@ button {
 .links {
   margin-top: 5rem;
 }
-
+.links {
+  color: #ffffff;
+}
+.links p span {
+  color: black;
+}
 @media (max-width: 800px) {
   .header p {
     font-size: 22px;
